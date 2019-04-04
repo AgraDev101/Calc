@@ -43,7 +43,7 @@ cont = "Y"
 
 while cont != "N" or not(cont):
 	calc()
-	cont = input("cont. Y/N?")
+	cont = input("Cont. Y/N?")
 
 
 print("Exiting")
