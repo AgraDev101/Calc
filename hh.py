@@ -4,29 +4,29 @@ def add():
 	num1 = input("1st number  ")
 	num2 = input("2nd nuber  + ")
 	res = float(num1) + float(num2)
-	print("Ans    --------\n           " +str(res))
+	print("Ans    -----------\n           " +str(res))
 
 def sub():
 	num1 = input("1st number  ")
 	num2 = input("2nd nuber  - ")
 	res = float(num1) - float(num2)
-	print("Ans    --------\n           " +str(res))
+	print("Ans    -----------\n           " +str(res))
 
 def mul():
 	num1 = input("1st number  ")
 	num2 = input("2nd nuber  x ")
 	res = float(num1) * float(num2)
-	print("Ans    --------\n           " +str(res))
+	print("Ans    -----------\n           " +str(res))
 
 def div():
 	num1 = input("1st number  ")
 	num2 = input("2nd nuber   ")
 	res = float(num1) / float(num2)
-	print("Ans    --------\n           " +str(res))
+	print("Ans    -----------\n           " +str(res))
 
 
 def calc():
-    op = input("enter operator ")
+    op = input("Enter operator ")
 
     if op == "+":
     	add()
@@ -37,13 +37,13 @@ def calc():
     elif op == "/":
     	div()
     else:
-    	print("invalid")
+    	print("Invalid operator")
 
 cont = "Y"
 
 while cont != "N" or not(cont):
 	calc()
-	cont = input("cont Y/N?")
+	cont = input("cont. Y/N?")
 
 
 print("Exiting")
