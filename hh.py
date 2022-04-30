@@ -1,5 +1,3 @@
-
-
 def add():
 	num1 = input("1st number  ")
 	num2 = input("2nd nuber  + ")
@@ -38,15 +36,16 @@ def calc():
     	div()
     else:
     	print("Invalid operator")
+	
+	
+cont = "y"
 
-cont = "Y"
+while cont != "n" or not(cont):
+    calc()
+    cont1 = str(input("Cont. Y/N?"))
+    cont = cont1.lower()
 
-while cont != "N" or not(cont):
-	calc()
-	cont = input("Cont. Y/N?")
-
-
-print("Exiting")
+print("Exiting..")
 
 
 
